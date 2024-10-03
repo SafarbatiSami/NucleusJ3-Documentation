@@ -72,3 +72,19 @@ java -jar NucleusJ_2-2.0.0.jar -omero -action segCC \
 - **Input Directory**: Directory containing the input data.
 - **Segmentation Directory**: Directory conataining the segmented data.
 
+
+# Chromocenter Parameter Computation
+## Example Command for AutoCrop
+
+To perform automatic cropping using the `NucleusJ` tool with OMERO, use the following command:
+
+```bash
+java -jar NucleusJ_2-2.0.0.jar -omero -action autocrop -input "dataset/31534" -output 14855 -threads 6 -username <your_username> -hostname omero.igred.fr -group 553 -port 4064 -password <your_password>
+```
+
+## Parameters Description
+-input : The input dataset to be cropped e.g. "dataset/xxxx" .
+-output : The ID of the output project where the results will be stored.
+-threads : Number of threads to use for processing (in this case, 6).
+
+
