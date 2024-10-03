@@ -87,8 +87,8 @@ java -jar NucleusJ_2-2.0.0.jar -omero -action autocrop -input "dataset/31534" -o
 ```
 
 ## Parameters Description
--input : The input dataset to be cropped e.g. "dataset/xxxx" .
--output : The ID of the output project where the results will be stored.
--threads : Number of threads to use for processing (in this case, 6).
+- input : The input dataset to be cropped e.g. "dataset/xxxx" .
+- output : The ID of the output project where the results will be stored.
+- threads : Number of threads to use for processing (in this case, 6).
 
 
