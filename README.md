@@ -73,7 +73,7 @@ java -jar NucleusJ_2-2.0.0.jar -omero -action segCC \
 - **Segmentation Directory**: Directory conataining the segmented data.
 
 
-# Chromocenter Parameter Computation
+# Autocrop
 ## Example Command for AutoCrop
 
 To perform automatic cropping using the `NucleusJ` tool with OMERO, use the following command:
