@@ -1,5 +1,17 @@
 # NucleusJ3-Documentation
 # Command-Line Doc with OMERO
+## Available Functions with OMERO
+
+The following actions are available to use with OMERO:
+
+- **autocrop**: Automatically crops the widefield image based on specified criteria.
+- **segmentation**: Performs segmentation on the dataset/image.
+- **generateOverlay**: Generates an overlay from the image.
+- **cropFromCoordinate**: Crops the image based on specific coordinates.
+- **computeParameters**: Computes parameters related to the image.
+- **segCC**: Executes segmentation for chromocenter components.
+- **computeCcParameters**: Computes Chromocenter (Cc) parameters.
+
 # Chromocenter Parameter Computation
 
 This guide explains how to use the `NucleusJ3` tool to compute **Chromocenter (Cc) parameters** between datasets stored in OMERO.
