@@ -20,8 +20,8 @@ java -jar NucleusJ_2-2.0.0.jar -omero -action computeCcParameters \
 ```
 ## Command Parameters
 
-- `-input`, `-input2`, `-input3`: Dataset IDs to be analyzed.
-- `-rhf`: Relative Heterochromatin file, e.g., intensity.
-- `-obj`: Object to analyse, e.g., cc, nuc_cc (nucleus & chromocenters).
+- `-input`, `-input2`, `-input3`: Dataset IDs to be analyzed. (raw, nuc segmentation, chromocenter segmentation)
+- `-rhf`: Relative Heterochromatin fraction, e.g., intensity, volume_intensity
+- `-obj`: Object to analyse, e.g., cc (Chromocenter), nuc_cc (nucleus & chromocenters).
 - `-username`, `-hostname`, `-group`, `-port`, `-password`: OMERO credentials and server details.
 
