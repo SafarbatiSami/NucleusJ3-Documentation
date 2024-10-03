@@ -74,6 +74,10 @@ java -jar NucleusJ_2-2.0.0.jar -omero -action segCC \
 
 
 # Autocrop
+To crop nuclei in a isolate file from 3D wide field image from microscopy. The process use a **OTSU** threshold to detect object on the image. To detect specific object you can use different parameters as filter like :
+- volume of object detected 
+- minimum intensity of object detected
+- slice used to detect defined OTSU threshold
 ## Example Command for AutoCrop
 
 To perform automatic cropping using the `NucleusJ` tool with OMERO, use the following command:
