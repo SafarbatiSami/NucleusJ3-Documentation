@@ -1,5 +1,5 @@
 # NucleusJ3-Documentation
-# Command-Line Doc 
+# Command-Line Doc with OMERO
 # Chromocenter Parameter Computation
 
 This guide explains how to use the `NucleusJ3` tool to compute **Chromocenter (Cc) parameters** between datasets stored in OMERO.
