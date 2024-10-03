@@ -1,5 +1,6 @@
 # NucleusJ3-Documentation
-# Command-Line Doc for Chromocenter Parameter Computation
+# Command-Line Doc 
+# Chromocenter Parameter Computation
 
 This guide explains how to use the `NucleusJ3` tool to compute **Chromocenter (Cc) parameters** between datasets stored in OMERO.
 
@@ -25,7 +26,7 @@ java -jar NucleusJ_2-2.0.0.jar -omero -action computeCcParameters \
 - `-obj`: Object to analyse, e.g., cc (Chromocenter), nuc_cc (nucleus & chromocenters).
 - `-username`, `-hostname`, `-group`, `-port`, `-password`: OMERO credentials and server details.
 
-# Command-Line Doc for Chromocenter segmentation
+# Chromocenter segmentation
 
 
 ## Example Command
