@@ -33,7 +33,7 @@ java -jar NucleusJ_2-2.0.0.jar -omero -action computeCcParameters \
 -group 553 -port 4064 -password my_password
 
 ```
-## Command Parameters
+## Parameters Description
 
 - `-input`, `-input2`, `-input3`: Dataset IDs to be analyzed. (raw, nuc segmentation, chromocenter segmentation)
 - `-rhf`: Relative Heterochromatin fraction, e.g., intensity, volume_intensity
