@@ -1,5 +1,8 @@
 # NucleusJ3-Documentation
 # Command-Line Doc with OMERO
+This guide explains how to use the `NucleusJ3` functions with **OMERO** in **command line**.
+
+
 ## Prerequisites
 
 - **Java** installed on your system.
@@ -19,8 +22,6 @@ The following actions are available to use with OMERO:
 - **computeCcParameters**: Computes Chromocenter (Cc) parameters.
 
 # Chromocenter Parameter Computation
-
-This guide explains how to use the `NucleusJ3` tool to compute **Chromocenter (Cc) parameters** between datasets stored in OMERO.
 
 
 ## Example Command
