@@ -1,5 +1,11 @@
 # NucleusJ3-Documentation
 # Command-Line Doc with OMERO
+## Prerequisites
+
+- **Java** installed on your system.
+- **NucleusJ JAR file** (`NucleusJ_2-2.0.0.jar`).
+- **OMERO server access**: hostname, username, password, group ID.
+
 ## Available Functions with OMERO
 
 The following actions are available to use with OMERO:
@@ -16,11 +22,6 @@ The following actions are available to use with OMERO:
 
 This guide explains how to use the `NucleusJ3` tool to compute **Chromocenter (Cc) parameters** between datasets stored in OMERO.
 
-## Prerequisites
-
-- **Java** installed on your system.
-- **NucleusJ JAR file** (`NucleusJ_2-2.0.0.jar`).
-- **OMERO server access**: hostname, username, password, group ID.
 
 ## Example Command
 
