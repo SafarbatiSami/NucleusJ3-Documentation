@@ -107,3 +107,17 @@ java -jar NucleusJ_2-2.0.0.jar -omero -action segmentation -input "dataset/31510
 - `input` : The input dataset/image to be segmented e.g. "dataset/xxxx" .
 - `output` : The ID of the output project where the results will be stored.
 - `threads` : Number of threads to use for processing (in this case, 6).
+
+
+# Generate Overlay using NucleusJ
+
+To perform Overlay cropping using the `NucleusJ` tool with OMERO, use the following command:
+
+## Command to Use:
+
+```bash
+java -jar NucleusJ_2-2.0.0.jar -omero -action generateOverlay \
+-input "Dataset/31510" -input2 "Dataset/31511" -output Project_ID \
+-username my_username -hostname omero.igred.fr \
+-group 553 -port 4064 -password my_password
+```
