@@ -122,7 +122,7 @@ java -jar NucleusJ_2-2.0.0.jar -omero -action generateOverlay \
 -group 553 -port 4064 -password my_password
 ```
 ## Parameters Description
--`input` : Projection dataset ID (e.g., Dataset/31510)
--`input2`: DIC dataset ID (e.g., Dataset/31511)
--`output`:	Output project ID for the generated overlay
+- `input` : Projection dataset ID (e.g., Dataset/31510)
+- `input2`: DIC dataset ID (e.g., Dataset/31511)
+- `output`:	Output project ID for the generated overlay
 
