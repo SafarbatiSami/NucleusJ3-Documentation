@@ -85,14 +85,14 @@ To crop nuclei in a isolate file from 3D wide field image from microscopy. The p
 To perform automatic cropping using the `NucleusJ` tool with OMERO, use the following command:
 
 ```bash
-java -jar NucleusJ_2-2.0.0.jar -omero -action autocrop -input "dataset/31534" -output 14855 -threads 6 -username <your_username> -hostname omero.igred.fr -group 553 -port 4064 -password <your_password>
+java -jar NucleusJ_2-2.0.0.jar -omero -action autocrop -input "dataset/31534" -output 14855 -threads 6 -thresh RenyiEntropy -username <your_username> -hostname omero.igred.fr -group 553 -port 4064 -password <your_password>
 ```
 
 ## Parameters Description
 - `input` : The input dataset to be cropped e.g. "dataset/xxxx" .
 - `output` : The ID of the output project where the results will be stored.
 - `threads` : Number of threads to use for processing (in this case, 6).
-
+- `thresh` : Thresholding method to use for processing (Otsu by default).
 
 # Segmentation
 ## Example Command for Segmentation with NucleusJ
